@@ -277,4 +277,127 @@ print("Hello, World!")
 //Select each tab to learn more about errors in AI-generated code.
 
 
->
+>accuracy and errors - 
+
+Sometimes, the code does not work as you expect or has errors. The AI can generate code that seems correct but doesn’t perform the task properly.
+
+
+
+Example: If you ask the AI to write a function to calculate the average of a list of numbers, the code might work in most cases but could fail if it doesn’t handle special situations, like an empty list. If the code doesn’t check for an empty list, it might give an error or an incorrect result, such as dividing by zero. This can cause unexpected issues and bugs that must be fixed to ensure the code works correctly.
+
+
+>context misunderstanding -
+
+
+The AI might not fully understand your request’s details or overall context, which can lead to code that doesn’t meet your needs.
+
+
+
+Example: If you ask the AI to generate code for processing customer feedback but don’t specify that you need to handle both text and numerical ratings, the AI might create code that only processes text comments. This means the numerical ratings would be missed, leading to incomplete data processing and missing important insights.
+
+>code Quality -
+
+
+The AI-generated code might work but might not be well-organized or easy to understand. This can make it harder to maintain or update the code later.
+
+
+
+Example: The code might function correctly but may not be written clearly or use consistent naming conventions. This can be confusing for someone who needs to work with it later. For instance, the code might use vague variable names or lack comments explaining what each part does, making it harder to understand or modify in the future.
+
+
+> security status -
+
+
+The AI-generated code might have security flaws if it doesn’t follow best practices for protecting data and preventing unauthorized access.
+
+
+
+Example: If you ask the AI to create a login system for a website, the generated code might let users log in but might not use encryption to protect passwords. It might also fail to check if input data is safe, allowing malicious users to exploit these weaknesses and gain unauthorized access to sensitive information.
+
+
+
+// Basic troubleshooting techniques 
+
+
+>Look at the code for any obvious mistakes, like missing semicolons or typos.
+
+
+Run the code in a development environment that highlights syntax errors. Many Integrated Development Environments (IDEs) have built-in tools to help with this.
+
+>run the code with different inputs to see if it behaves as expected.
+
+
+Create test cases that cover a range of scenarios, including edge cases like very large numbers and empty inputs.
+
+>Read any comments in the code or external documentation to understand what it’s supposed to do.
+
+
+
+Look for comments within the code or external documentation that explains the code’s purpose and usage.
+
+>If the code is too complex, break it down into smaller parts and test each part individually.
+
+
+
+Isolate sections of the code and test them separately to identify where things might be going wrong.
+
+>If you’re stuck, ask for help from online communities or forums.
+
+
+Post a clear description of the problem, including the code and what you’re trying to achieve, to get advice from experienced programmers.
+
+
+//Points to remember
+>Key concepts
+
+1
+Generative AI is a type of artificial intelligence that can generate new content.
+
+2
+Benefits of using generative AI for software development:
+
+Can take a few instructions from you and turn them into a complete program
+Can suggest how to complete certain sections of code or even write new parts for you
+Can find and fix errors in the code
+Can save time by handling tedious coding tasks
+Makes learning to code much easier
+3
+A prompt is like giving AI a set of clear instructions on what you want it to create.
+
+4
+Process of writing code using generative AI:
+
+You provide a clear prompt.
+The AI interprets the request.
+The AI generates the code.
+5
+Reasons for converting code from one programming language to another:
+
+Provides you the flexibility to work with the language of your choice
+Allows the software to run on a new platform that requires a different language
+Enables integration with other systems or software that are built using a different programming language
+Improves maintainability, performance, and security of legacy systems
+6
+Common issues found in AI-generated code:
+
+The AI can generate code that seems correct but doesn’t perform the task properly.
+The AI might not fully understand your request’s details or overall context.
+The AI-generated code might work but might not be well-organized or easy to understand.
+The AI-generated code might have security flaws.
+
+
+//Learning objectives
+
+>Now that you’ve completed this module, you should be able to:
+
+•
+Identify the benefits of using generative AI for software development
+
+•
+Describe how generative AI is used to write code
+
+•
+Identify common issues with AI-generated code
+
+•
+Use IBM watsonx in a simulation to generate code
